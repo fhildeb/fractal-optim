@@ -1,6 +1,6 @@
 #include <math.h>
 #include <iostream>
-#include <SDL/SDL.h>
+#include <SDL.h>
 #include <pthread.h>
 
 using namespace std;
@@ -241,7 +241,7 @@ int main(int argc, char** argv)
       cout << "zoom:                    page up/down" << endl;
       cout << "anti-aliasing no/off:    return" << endl;
 	  cout << "in-/decrease iterations: +/-" << endl; 
-	  cout << "quit application: 		Q" << endl << endl;
+	  cout << "quit application: 	 Q" << endl << endl;
       return -1;
     } // if
 
