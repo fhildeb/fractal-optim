@@ -256,7 +256,8 @@ int main(int argc, char** argv)
       cout << "move:                    cursor keys" << endl;
       cout << "zoom:                    page up/down" << endl;
       cout << "anti-aliasing no/off:    return" << endl;
-      cout << "in-/decrease iterations: +/-" << endl << endl;
+      cout << "in-/decrease iterations: +/-" << endl; 
+	  cout << "quit application: 		Q" << endl << endl;
       return -1;
     } // if
 
