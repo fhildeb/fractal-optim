@@ -2,7 +2,7 @@
 
 Fractal drawings with thread optimization by Felix Hildebrandt as final thesis for C++ development in 2019.
 
-> **_NOTE:_** Commentary and files might appear in German.
+> **_NOTE:_** Commentary might appear in German.
 
 ## Description
 
