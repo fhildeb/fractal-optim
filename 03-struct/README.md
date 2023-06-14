@@ -12,7 +12,7 @@ Here are the key changes:
 
 - **Image Render Modification**: The function now takes a pointer to the struct as an argument instead of multiple individual parameters. This change improves the readability and maintainability of the code.
 
-- **Thread Optimization**: In the creation of threads within the main function, each thread now receives a struct containing all the data it needs to perform its task. This data is packaged into an array of renderdaten structs, allowing each thread to handle its portion of the image rendering task.
+- **Thread Optimization**: In the creation of threads within the main function, each thread now receives a struct containing all the data it needs to perform its task. This data is packaged into an array of structs, allowing each thread to handle its portion of the image rendering task.
 
 - **Flow Modification**: The main function has been updated to initialize and fill an array of structs before passing them to the threads. This way, the required data is conveniently packaged and easily accessible by each thread during execution.
 

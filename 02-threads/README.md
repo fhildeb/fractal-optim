@@ -8,7 +8,7 @@ This program is an enhanced version with several additional features and refinem
 
 - **Thread Implementation**: The most noticeable change is the introduction of multithreading. The rendering function RenderImage is now designed to be called in its own thread. This could potentially speed up the rendering process by utilizing multiple cores of the CPU simultaneously.
 
-- **Struct Implementation**: The program introduces a renderdaten struct, which is a custom data structure used to store all the necessary data for rendering the fractal. This includes the SDL surface to draw on, dimensions of the area to be drawn, zoom level, coordinates of the minimum x and y, maximum iterations for the fractal calculation, and level of anti-aliasing. The struct allows for a more organized way to pass multiple related data to the RenderImage function.
+- **Struct Implementation**: The program introduces a struct, which is a custom data structure used to store all the necessary data for rendering the fractal. This includes the SDL surface to draw on, dimensions of the area to be drawn, zoom level, coordinates of the minimum x and y, maximum iterations for the fractal calculation, and level of anti-aliasing. The struct allows for a more organized way to pass multiple related data to the RenderImage function.
 
 - **Anti-Aliasing**: The program now has the ability to perform anti-aliasing, which is a technique used to smooth jagged edges in digital images. The level of anti-aliasing can be toggled on or off by pressing the return key.
 
