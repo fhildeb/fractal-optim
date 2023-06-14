@@ -8,6 +8,10 @@ Fractal drawings with thread optimization by Felix Hildebrandt as final thesis f
 
 The application is able to draw 2D fractals based on the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) math calculation and enables to search and move within the visualization to explore the world of mathamatically generated pictures.
 
+> Each code base has a separate description, adding more features to the program.
+
+The final version can be found within the [`04-final`](/04-final/) directory.
+
 ## Functionality
 
 - Generate 2D fractal map
