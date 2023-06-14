@@ -20,4 +20,4 @@ This final version of the fractal rendering program includes substantial improve
 
 - **Dynamic Width Assignment**: The program now dynamically calculates the width each thread should render based on the total number of threads.
 
-> In summary, the final version of the fractal rendering program effectively implements multi-threaded rendering to make full use of multiple CPU cores and thereby significantly improves the rendering speed. It also ensures thread-safety by using a mutex to prevent simultaneous access to shared data.
+> The final version of the fractal rendering program effectively implements multi-threaded rendering to make full use of multiple CPU cores and thereby significantly improves the rendering speed. It also ensures thread-safety by using a mutex to prevent simultaneous access to shared data.
